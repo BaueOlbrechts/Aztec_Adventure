@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 221334937234fec499bec645825e81c5, type: 3}
+  m_Name: Scr_Obj_Character_Temple_Teacher
+  m_EditorClassIdentifier: 
+  DialogueOptions:
+  - Dialogue:
+    - DialogueSprite: {fileID: 0}
+      DialogueText: Well, hello there. Can I help you?
+    - DialogueSprite: {fileID: 0}
+      DialogueText: Do you, by any chance want to learn
+    - DialogueSprite: {fileID: 0}
+      DialogueText: about MUSIC and DANCE?
+    - DialogueSprite: {fileID: 0}
+      DialogueText: Because I can tell you all about that,
+    - DialogueSprite: {fileID: 21300000, guid: 910b131f51cff73438c28e1624c85612, type: 3}
+      DialogueText: But I would need a favor first.
+    - DialogueSprite: {fileID: 21300000, guid: 910b131f51cff73438c28e1624c85612, type: 3}
+      DialogueText: I ran out of HOT CHILIs last week,
+    - DialogueSprite: {fileID: 21300000, guid: 910b131f51cff73438c28e1624c85612, type: 3}
+      DialogueText: "And now I can\u2019t punish the students"
+    - DialogueSprite: {fileID: 21300000, guid: 910b131f51cff73438c28e1624c85612, type: 3}
+      DialogueText: When they do something wrong.
+    - DialogueSprite: {fileID: 21300000, guid: 910b131f51cff73438c28e1624c85612, type: 3}
+      DialogueText: I believe there is some HOT CHILI
+    - DialogueSprite: {fileID: 21300000, guid: 910b131f51cff73438c28e1624c85612, type: 3}
+      DialogueText: On the MARKET.
+    ItemToRecieve: {fileID: 11400000, guid: 05cb3db3b3c499c4bb27ebe700e5a8c8, type: 2}
+    ItemToGive: {fileID: 0}
+  - Dialogue:
+    - DialogueSprite: {fileID: 0}
+      DialogueText: Yes, I will light the fire immediately!
+    - DialogueSprite: {fileID: 21300000, guid: cadf0507b8b546f458636efe9865487d, type: 3}
+      DialogueText: So, you want to learn all about music and dance?
+    - DialogueSprite: {fileID: 21300000, guid: cadf0507b8b546f458636efe9865487d, type: 3}
+      DialogueText: We had some instruments in the school,
+    - DialogueSprite: {fileID: 21300000, guid: cadf0507b8b546f458636efe9865487d, type: 3}
+      DialogueText: 'But one of the students hid them '
+    - DialogueSprite: {fileID: 21300000, guid: cadf0507b8b546f458636efe9865487d, type: 3}
+      DialogueText: "and scared off the dance-teacher\u2026"
+    - DialogueSprite: {fileID: 21300000, guid: cadf0507b8b546f458636efe9865487d, type: 3}
+      DialogueText: "We\u2019re missing a HUEHUETL, but its heavy."
+    - DialogueSprite: {fileID: 21300000, guid: cadf0507b8b546f458636efe9865487d, type: 3}
+      DialogueText: So it shouldn't be too far away.
+    ItemToRecieve: {fileID: 11400000, guid: ab2881a197dd06f4aa5234f1285f1067, type: 2}
+    ItemToGive: {fileID: 0}
+  - Dialogue:
+    - DialogueSprite: {fileID: 21300000, guid: f25df8149548e2b4eb57bb6e5fd36145, type: 3}
+      DialogueText: 'Next instrument that is gone '
+    - DialogueSprite: {fileID: 21300000, guid: f25df8149548e2b4eb57bb6e5fd36145, type: 3}
+      DialogueText: is the CHIRIMIA!
+    - DialogueSprite: {fileID: 21300000, guid: f25df8149548e2b4eb57bb6e5fd36145, type: 3}
+      DialogueText: I heard the student took it home.
+    - DialogueSprite: {fileID: 21300000, guid: f25df8149548e2b4eb57bb6e5fd36145, type: 3}
+      DialogueText: He lives close to the market.
+    ItemToRecieve: {fileID: 11400000, guid: 8934ea93fb5f720499acef2daf259e7d, type: 2}
+    ItemToGive: {fileID: 0}
+  - Dialogue:
+    - DialogueSprite: {fileID: 21300000, guid: 1ceb3110dc7fbb0419fe4cf95603b7d9, type: 3}
+      DialogueText: Last instrument that is lost
+    - DialogueSprite: {fileID: 21300000, guid: 1ceb3110dc7fbb0419fe4cf95603b7d9, type: 3}
+      DialogueText: Is a small TEMPLE FLUTE.
+    - DialogueSprite: {fileID: 21300000, guid: 1ceb3110dc7fbb0419fe4cf95603b7d9, type: 3}
+      DialogueText: He was bragging about
+    - DialogueSprite: {fileID: 21300000, guid: 1ceb3110dc7fbb0419fe4cf95603b7d9, type: 3}
+      DialogueText: Luring fish with his music.
+    - DialogueSprite: {fileID: 21300000, guid: 1ceb3110dc7fbb0419fe4cf95603b7d9, type: 3}
+      DialogueText: Maybe the FLUTE is somewhere
+    - DialogueSprite: {fileID: 21300000, guid: 1ceb3110dc7fbb0419fe4cf95603b7d9, type: 3}
+      DialogueText: Near the CHINAMPAS?
+    ItemToRecieve: {fileID: 11400000, guid: 9fa29c31d5c999c4eb2a5da53536f630, type: 2}
+    ItemToGive: {fileID: 0}
+  - Dialogue:
+    - DialogueSprite: {fileID: 0}
+      DialogueText: You found all the instruments?!
+    - DialogueSprite: {fileID: 0}
+      DialogueText: Thank you so much!
+    - DialogueSprite: {fileID: 21300000, guid: 6ae496d8d1e8e7747bac50af7cf4c948, type: 3}
+      DialogueText: But the DANCER is still nowhere to be found...
+    - DialogueSprite: {fileID: 21300000, guid: 6ae496d8d1e8e7747bac50af7cf4c948, type: 3}
+      DialogueText: Could you try and find them for me?
+    - DialogueSprite: {fileID: 21300000, guid: 6ae496d8d1e8e7747bac50af7cf4c948, type: 3}
+      DialogueText: I believe he prefers the shadow
+    - DialogueSprite: {fileID: 21300000, guid: 6ae496d8d1e8e7747bac50af7cf4c948, type: 3}
+      DialogueText: 'Of the trees in his free time. '
+    ItemToRecieve: {fileID: 11400000, guid: bf04b6e1c50a101438f092aa95b94636, type: 2}
+    ItemToGive: {fileID: 0}
+  - Dialogue:
+    - DialogueSprite: {fileID: 0}
+      DialogueText: Thank the Gods you found
+    - DialogueSprite: {fileID: 0}
+      DialogueText: The DANCER unharmed!
+    - DialogueSprite: {fileID: 0}
+      DialogueText: Now, please excuse me,
+    - DialogueSprite: {fileID: 21300000, guid: 910b131f51cff73438c28e1624c85612, type: 3}
+      DialogueText: The little thief has an appointment
+    - DialogueSprite: {fileID: 21300000, guid: 910b131f51cff73438c28e1624c85612, type: 3}
+      DialogueText: With some burning HOT CHILIS!
+    ItemToRecieve: {fileID: 0}
+    ItemToGive: {fileID: 0}
+  TimeBetweenDialogue: 3
+  TalkingAudio: {fileID: 8300000, guid: 726f156250cd59341b495dac0db39d6a, type: 3}
+  QuestCompleteAudio: {fileID: 8300000, guid: 3cfe3ece40b66134d8d8d26970168e48, type: 3}
+  WrongItemAudio: {fileID: 8300000, guid: 4ab1d5cf011a4b74e98c1c70e0721b88, type: 3}
+  RuntimeAnimatorController: {fileID: 9100000, guid: 0ade2d919d83b544e86fc9f8c2b54dc4,
+    type: 2}
+  AnimationClip: {fileID: 7400000, guid: 2dd465fc142626640ae61f7e1dd11682, type: 2}

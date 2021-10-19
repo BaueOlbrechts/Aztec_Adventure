@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5773086985046202654
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5773086985046202653}
+  - component: {fileID: 5773086985046202655}
+  - component: {fileID: 5773086985046202652}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5773086985046202653
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5773086985046202654}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5773086985046202655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5773086985046202654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0676bffdfab19d4e9784096dde79349, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UI_NoTracker: {fileID: 0}
+  UI_Inventory: {fileID: 0}
+  UI_HotBar: {fileID: 0}
+  UI_Settings: {fileID: 0}
+  UI_LoadingScreen: {fileID: 0}
+  UI_ARWarning: {fileID: 0}
+  TrackingHelper: {fileID: 0}
+  TargetTag: TagTarget
+  CurrentInventory:
+    _myItems: []
+    _myCollection:
+      AllCollectibles: []
+--- !u!114 &5773086985046202652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5773086985046202654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7b205a967bc67d4fb45c71f0a6ffb58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ParticlePrefabs:
+  - {fileID: 0}
+  - {fileID: 463582448440125132, guid: 1d950d73b61a23d4b8937ea4329c1799, type: 3}
+  - {fileID: 2052082568276911724, guid: 81d8474c7cf2d6348a36146c252b85de, type: 3}
+  - {fileID: 2052082568276911724, guid: 81d8474c7cf2d6348a36146c252b85de, type: 3}
+  - {fileID: 463582448440125132, guid: 5abd02c07058cff449d1919952ca4c65, type: 3}

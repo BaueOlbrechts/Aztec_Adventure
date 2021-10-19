@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 221334937234fec499bec645825e81c5, type: 3}
+  m_Name: Scr_Obj_Character_Market_Merchant
+  m_EditorClassIdentifier: 
+  DialogueOptions:
+  - Dialogue:
+    - DialogueSprite: {fileID: 0}
+      DialogueText: 'Ah, you want to know what we ate and drank? '
+    - DialogueSprite: {fileID: 0}
+      DialogueText: 'For food, we cultivated some fruits and vegetables. '
+    - DialogueSprite: {fileID: 21300000, guid: a18a2dd614e0bff44a6a8d782d249c26, type: 3}
+      DialogueText: 'One fruit we had a lot of was PUMPKIN. '
+    - DialogueSprite: {fileID: 21300000, guid: a18a2dd614e0bff44a6a8d782d249c26, type: 3}
+      DialogueText: 'If you can bring me a PUMPKIN, '
+    - DialogueSprite: {fileID: 0}
+      DialogueText: I can tell you more about what we drank.
+    ItemToRecieve: {fileID: 11400000, guid: a4a39b7932216264994238a8ab3f9cff, type: 2}
+    ItemToGive: {fileID: 11400000, guid: 65ead6acb482ab8439ace63383f96f0c, type: 2}
+  - Dialogue:
+    - DialogueSprite: {fileID: 21300000, guid: a18a2dd614e0bff44a6a8d782d249c26, type: 3}
+      DialogueText: Back already? And with a PUMPKIN? Very good!
+    - DialogueSprite: {fileID: 21300000, guid: 701970a415bf1f84f822242a6627e01c, type: 3}
+      DialogueText: "For the drinks I\u2019ll give you this: a VASE."
+    - DialogueSprite: {fileID: 21300000, guid: 8a41f547cd0cde04db18051275691a48, type: 3}
+      DialogueText: If you find some AGAVE you can ask the FARMER
+    - DialogueSprite: {fileID: 21300000, guid: dadd505ce7bb28b4c9eee909faf141e5, type: 3}
+      DialogueText: to fill the VASE with PULQUE for you.
+    - DialogueSprite: {fileID: 21300000, guid: 8a41f547cd0cde04db18051275691a48, type: 3}
+      DialogueText: I believe there is some freshly harvested AGAVE
+    - DialogueSprite: {fileID: 21300000, guid: 8a41f547cd0cde04db18051275691a48, type: 3}
+      DialogueText: On one of the boats between the CHINAMPAS.
+    ItemToRecieve: {fileID: 0}
+    ItemToGive: {fileID: 0}
+  TimeBetweenDialogue: 3
+  TalkingAudio: {fileID: 8300000, guid: f37772fe20205b14da23d3364ab035c3, type: 3}
+  QuestCompleteAudio: {fileID: 8300000, guid: 11e533041e78d1b43bf0f1ead87d96ab, type: 3}
+  WrongItemAudio: {fileID: 8300000, guid: 8e926e509691cb047a961821978e1d64, type: 3}
+  RuntimeAnimatorController: {fileID: 9100000, guid: 0ade2d919d83b544e86fc9f8c2b54dc4,
+    type: 2}
+  AnimationClip: {fileID: 7400000, guid: 2dd465fc142626640ae61f7e1dd11682, type: 2}

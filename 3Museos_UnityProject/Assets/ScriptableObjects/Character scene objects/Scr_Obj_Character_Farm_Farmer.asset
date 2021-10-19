@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 221334937234fec499bec645825e81c5, type: 3}
+  m_Name: Scr_Obj_Character_Farm_Farmer
+  m_EditorClassIdentifier: 
+  DialogueOptions:
+  - Dialogue:
+    - DialogueSprite: {fileID: 0}
+      DialogueText: Hello, what can I help you with?
+    - DialogueSprite: {fileID: 0}
+      DialogueText: You want some PULQUE?
+    - DialogueSprite: {fileID: 21300000, guid: 8a41f547cd0cde04db18051275691a48, type: 3}
+      DialogueText: Do you have some AGAVE and a VASE?
+    - DialogueSprite: {fileID: 21300000, guid: 8a41f547cd0cde04db18051275691a48, type: 3}
+      DialogueText: If you give me the AGAVE first
+    - DialogueSprite: {fileID: 21300000, guid: dadd505ce7bb28b4c9eee909faf141e5, type: 3}
+      DialogueText: I can make some PULQUE.
+    ItemToRecieve: {fileID: 11400000, guid: 2b8546f851ff16747bf52a3226f69ba0, type: 2}
+    ItemToGive: {fileID: 0}
+  - Dialogue:
+    - DialogueSprite: {fileID: 21300000, guid: 701970a415bf1f84f822242a6627e01c, type: 3}
+      DialogueText: "Ah, yes, if you\u2019ll hand over the VASE,"
+    - DialogueSprite: {fileID: 21300000, guid: 701970a415bf1f84f822242a6627e01c, type: 3}
+      DialogueText: I'll add the PULQUE to it!
+    - DialogueSprite: {fileID: 21300000, guid: dadd505ce7bb28b4c9eee909faf141e5, type: 3}
+      DialogueText: Talking about PULQUE, there was a villager
+    - DialogueSprite: {fileID: 0}
+      DialogueText: 'near the MARKET who was really thirsty. '
+    - DialogueSprite: {fileID: 0}
+      DialogueText: Maybe you can help him?
+    ItemToRecieve: {fileID: 11400000, guid: 65ead6acb482ab8439ace63383f96f0c, type: 2}
+    ItemToGive: {fileID: 11400000, guid: 8e4dde294e891b549a2be136235c41f4, type: 2}
+  - Dialogue:
+    - DialogueSprite: {fileID: 21300000, guid: dadd505ce7bb28b4c9eee909faf141e5, type: 3}
+      DialogueText: Don't drink too much of that PULQUE!
+    ItemToRecieve: {fileID: 0}
+    ItemToGive: {fileID: 0}
+  TimeBetweenDialogue: 3
+  TalkingAudio: {fileID: 8300000, guid: 94d139678c3445c4bb2d05176bab0812, type: 3}
+  QuestCompleteAudio: {fileID: 8300000, guid: 12040741189bcc24f894eb1e4affece6, type: 3}
+  WrongItemAudio: {fileID: 8300000, guid: a620468273876c64a9acd23ca74da691, type: 3}
+  RuntimeAnimatorController: {fileID: 9100000, guid: 0ade2d919d83b544e86fc9f8c2b54dc4,
+    type: 2}
+  AnimationClip: {fileID: 7400000, guid: 2dd465fc142626640ae61f7e1dd11682, type: 2}
